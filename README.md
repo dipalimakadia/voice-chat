@@ -1,3 +1,77 @@
+## voice-chat app
+## Overview
+
+This project is a React-based single-page application designed to integrate with Resemble AI's voice cloning technology. Users can input text, select a voice, and generate a speech audio output. The application is built using TypeScript and Tailwind CSS.
+
+## Setup Instructions
+
+### Prerequisites
+Before you begin, ensure you have the following software installed on your local development machine:
+* Node.js (version 14 or higher)
+* npm or yarn (package manager)
+
+### Installation
+1. Clone the Repository
+    Clone the repository to your local machine using Git:
+    ```bash
+    git clone https://github.com/yourusername/resemble-ai-react-app.git
+    cd resemble-ai-react-app
+    ```
+   
+2. Install Dependencies
+    Install the necessary dependencies using npm or yarn:
+   
+    Using npm:
+    ```bash
+    npm install
+    ```
+   
+    Or using yarn:
+    ```bash
+    yarn install
+    ```
+   
+3. Run the Application
+
+    Start the development server:
+   
+    Using npm:
+    ```bash
+    npm start
+    ```
+   
+    Or using yarn:
+    ```bash
+    yarn start
+    ```
+   
+    The application will be accessible at http://localhost:3000.
+   
+   
+### Building for Production
+
+To create an optimized production build:
+   
+Using npm:
+```bash
+npm start
+```
+
+
+Or using yarn:
+```bash
+yarn build
+```
+
+The production-ready files will be located in the build directory.
+
+## Limitations
+
+- The application can input text and generate audio in different voices, but it's currently limited in scope.
+- There is potential to make the application more dynamic with additional features and functionality.
+- The application uses mock API calls rather than real API integrations.
+- More animations and CSS will be done if time is given.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
